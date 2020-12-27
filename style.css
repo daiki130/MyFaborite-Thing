@@ -29,6 +29,7 @@ nav img{
 #logo {
   grid-column: 2/3;
   font-size: 24px;
+  font-family: 'Martel', serif;
 }
 
 section {
@@ -56,8 +57,10 @@ section {
   left: 10%;
   font-size: 100px;
   transform: translate(-20%, -70%);
+  /* transform: translate(-20%, -50%); */
   color: white;
   z-index: 3;
+  font-family: 'Martel', serif;
 }
 .hero::after {
   content: "";
